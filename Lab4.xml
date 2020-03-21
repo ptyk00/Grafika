@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="800px" height="600px"
+viewBox="0 0 8 6"
+preserveAspectRatio="xMidYMid">
+
+ <defs>
+   	<g id="nShape">
+	<path d= "
+M 0.78,0.62
+L 0.97,-0.22
+M 0,0
+L 0.97,-0.22
+L 0.43,-0.90
+M 0,0
+L 0.43,-0.90
+L -0.43,-0.90
+M 0,0
+L -0.43,-0.90
+L -0.97,-0.22
+M 0,0
+L -0.97,-0.22
+L -0.78,0.62
+M 0,0
+L -0.78,0.62
+L -0.00,1.00
+M 0,0
+L -0.00,1.00
+L 0.78,0.62
+Z
+	"/>
+	        <animateTransform
+            attributeName="transform"
+            begin="0s"
+            dur="20s"
+            type="rotate"
+            from="0 0 0"
+            to="360 0 0"
+            repeatCount="indefinite"
+        />
+   </g>
+ </defs>
+
+<use xlink:href = "#nShape" transform="rotate(15, 1.5,1.5) translate(0.60,1.50)   scale(0.4)"
+fill="none" stroke-width = "0.01" stroke="black" />
+<use xlink:href = "#nShape" transform="rotate(195, 1.5,1.5) translate(0.60,1.50)   scale(0.4)"
+fill="none" stroke-width = "0.01" stroke="black" />
+<use xlink:href = "#nShape" transform="rotate(15, 4,3) translate(2.8,3)   scale(0.5)"
+fill="none" stroke-width = "0.01" stroke="black" />
+<use xlink:href = "#nShape" transform="rotate(195, 4,3) translate(2.8,3)   scale(0.5)"
+fill="none" stroke-width = "0.01" stroke="black" />
+<use xlink:href = "#nShape" transform="rotate(15, 6.5,1) translate(5.6,1)   scale(0.3)"
+fill="none" stroke-width = "0.01" stroke="black" />
+<use xlink:href = "#nShape" transform="rotate(195, 6.5,1) translate(5.6,1)   scale(0.3)"
+fill="none" stroke-width = "0.01" stroke="black" />
+
+
+<rect x="0.6" y="1.47" width="1.8" height="0.07" transform="rotate(15 1.5,1.5)"
+stroke="red" fill="red" stroke-width="0.05"/>
+<rect x="2.8" y="2.97" width="2.4" height="0.1" transform="rotate(15 4,3)"
+stroke="red" fill="red" stroke-width="0.05"/>
+<rect x="5.6" y="0.97" width="1.8" height="0.05" transform="rotate(15 6.5,1)"
+stroke="red" fill="red" stroke-width="0.05"/>
+<polygon points="1.5,1.5 1.2,3.0 1.8,3.0"
+fill="magenta" stroke="magenta" stroke-width="0.02"/>
+<polygon points="4,3 3.6,5 4.4,5" 
+fill="blue" stroke="blue" stroke-width="0.02"/>
+<polygon points="6.5,1 6.3,2.5 6.7,2.5" 
+fill="green" stroke="green" stroke-width="0.02"/>
+
+</svg>
